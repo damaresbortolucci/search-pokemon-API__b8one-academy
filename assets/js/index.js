@@ -76,7 +76,7 @@ function insertPokemonHTML(pokemon){
                           HP
                       </span>
                       <div class="pokemons-card-attributes-progress">
-                          <div class="pokemons-card-attributes-progress-bar" style="width: ${hpStat.base_stat}%"></div>
+                          <div class="pokemons-card-attributes-progress-bar" style="width: ${hpStat.base_stat}%; max-width: 100%"></div>
                       </div>
                   </li>
                   <li class="pokemons-card-attributes-item">
@@ -84,7 +84,7 @@ function insertPokemonHTML(pokemon){
                           Attack
                       </span>
                       <div class="pokemons-card-attributes-progress">
-                          <div class="pokemons-card-attributes-progress-bar" style="width: ${attackStat.base_stat}%"></div>
+                          <div class="pokemons-card-attributes-progress-bar" style="width: ${attackStat.base_stat}%; max-width: 100%"></div>
                       </div>
                   </li>
                   <li class="pokemons-card-attributes-item">
@@ -92,7 +92,7 @@ function insertPokemonHTML(pokemon){
                           Defense
                       </span>
                       <div class="pokemons-card-attributes-progress">
-                          <div class="pokemons-card-attributes-progress-bar" style="width: ${defenseStat.base_stat}%"></div>
+                          <div class="pokemons-card-attributes-progress-bar" style="width: ${defenseStat.base_stat}%; max-width: 100%"></div>
                       </div>
                   </li>
                   <li class="pokemons-card-attributes-item">
@@ -100,7 +100,7 @@ function insertPokemonHTML(pokemon){
                           Special Attack
                       </span>
                       <div class="pokemons-card-attributes-progress">
-                          <div class="pokemons-card-attributes-progress-bar" style="width: ${specialAttackStat.base_stat}%"></div>
+                          <div class="pokemons-card-attributes-progress-bar" style="width: ${specialAttackStat.base_stat}%; max-width: 100%"></div>
                       </div>
                   </li>
               </ul>
